@@ -1,0 +1,31 @@
+/* MenSection.css */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .container a:hover img ,h6 {
+    transform: scale(1.1);
+  }
+  
+  .container a:hover {
+    color: white;
+    }
+  

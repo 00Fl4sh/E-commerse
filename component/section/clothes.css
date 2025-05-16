@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+  
+  #category {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #category > div {
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #category > div:hover {
+    transform: scale(1.05);
+    /* margin-top: 120px; */
+  }
+  
+  #mens,
+  #womens,
+  #kids {
+    width: 280px; /* Adjust the width as needed */
+  }
+  
+  #mens img,
+  #womens img,
+  #kids img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* #mens img:hover,
+  #womens img:hover,
+  #kids img:hover {
+    transform: scale(1.2);
+  } */
+  
+  h3 {
+    /* margin-top: 10px; */
+    font-size: 1.2em;
+    color: #333; /* Adjust color as needed */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  #category > div:hover h3 {
+    color: black; /* Change to your preferred hover color */
+    margin-top: 20px;
+  }
+  
+  h6 {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    color: black;
+  }
+  h6:hover{
+    /* background-color:#b4b4b4; */
+    border-radius: 10px;
+    color:white;
+
+  }
+  /* Add this to your CSS file */
+.link {
+    text-decoration: none;
+    color: inherit; /* Use the inherited color or set your preferred color */
+  }
+  
+  .link:hover {
+    text-decoration: none;
+  }
+    
+
+  
